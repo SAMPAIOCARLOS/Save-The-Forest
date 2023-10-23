@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(43, 0, 255); */
+    background-image: url('img/fundo.jpg');
+    background-repeat: repeat;
+    background-size: 60%;
+    /* background-position: center; */
+    
+}
+main{
+    /* border: 1px solid red; */
+    width: 400px;
+    min-height: 650px;
+    background-image: url('img/game-boy.jpg');
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: center;
+}
+
+.img{
+    /* border: 3px solid blue; */
+    width: 53%;
+    height: 145px;
+    transform: translateY(80px);
+    margin-left: 90px;
+}
+img{
+    width: 100%;
+    height: 145px;
+}
+textarea{
+    max-width: 101%;
+    min-width: 101%;
+    max-height: 50px;
+    min-height: 50px;
+    transform: translateY(-3px);
+    background-color: black;
+    color: #fff;
+}
+.div-buttons{
+    /* border: 3px solid rgb(132, 0, 255); */
+    width: 120px;
+    height: 100px;
+    transform: translateX(240px);
+    margin-top: 240px;
+}
+#passar{
+    background-color: aqua;
+    width: 40px;
+    height: 40px;
+    transform: translateY(15px);
+    margin-left: 15px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgb(0, 34, 255);
+
+}
+#voltar{
+    background-color: aqua;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    transform: translateY(45px);
+    background-color: transparent;
+    border: none;
+    border: 1px solid red;
+
+}
